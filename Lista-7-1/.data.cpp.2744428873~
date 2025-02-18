@@ -1,0 +1,23 @@
+#include "data.h"
+#include <iostream>
+using namespace std;
+
+Data::Data() {
+  dia = 0;
+  mes = 0;
+  ano = 0;
+}
+Data::Data(int dd, int mm, int aa) {
+  setData(dd, mm, aa);
+}
+void Data::setData(int dd, int mm, int aa) {
+  if(dd>0 && dd<=31)
+    dia=dd;
+  else
+    dia=0;
+  if(mm>0 && mm<=12)
+    mes=
+  
+  mes = mm;
+  ano = aa;
+}
